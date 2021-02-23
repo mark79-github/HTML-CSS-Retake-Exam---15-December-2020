@@ -1,0 +1,179 @@
+@import "https://use.fontawesome.com/releases/v5.15.2/css/all.css";
+
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    background: white;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-right: 1px solid darkgray;
+    margin: 20px 0 20px 20px;
+    padding-right: 10px;
+}
+
+.header-logo-by {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+.header-navigation {
+    margin: 20px 0 20px 0;
+}
+
+.header-navigation ul {
+    display: flex;
+}
+
+.header-navigation ul li {
+    padding: 20px;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #ECECEC;
+}
+
+.header-navigation ul li:first-child {
+    background: #E24E2A;
+    color: white;
+}
+
+.header-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.header-image-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.header-content-text {
+    max-width: 1200px;
+    margin: -5px auto 0 auto;
+    background: #E24E2A;
+    padding: 50px 120px;
+}
+
+.header-content-text p {
+    color: white;
+    text-align: center;
+}
+
+.header-content-text a {
+    color: white;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    background: #373737;
+    display: flex;
+    justify-content: space-between;
+}
+
+.types {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.fas {
+    color: white;
+    padding: 35px;
+    background: #E24E2A;
+    font-size: 30px;
+    /*text-align: center;*/
+}
+
+.types-title {
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+    /*text-align: center;*/
+}
+
+.types-description {
+    font-size: 14px;
+    /*text-align: center;*/
+    border-top: 1px solid darkgray;
+    color: darkgray;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.main-faq {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-faq h2 {
+    font-size: 24px;
+}
+
+.main-faq h3 {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.btn {
+    background: #1B9772;
+    padding: 20px 50px;
+    color: white;
+    border: unset;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.main-content.bottom h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.main-content.bottom p {
+    color: darkgray;
+    font-size: 14px;
+}
+
+.types.bottom p {
+    margin-top: 30px;
+}
+
+footer {
+    max-width: 1200px;
+    background: #1B9772;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: darkgray;
+}
